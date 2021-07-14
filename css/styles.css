@@ -32,9 +32,8 @@ header{
  
 }
 a:hover{
-    background-color: #E02C6D;
-    border-radius: 10px;
-    padding: 2px;
+    background-color: #d499af;
+    padding: 07px 20px;
 }
 .login{
     margin-top: 42px;
@@ -141,6 +140,7 @@ a:hover{
 -------------------------*/
 footer{
     margin-top: 158px;
+    margin-bottom: 63px;
 }
 .footer-item{
     display: flex;
@@ -155,10 +155,14 @@ footer{
 }
 .social-icon{
     margin-right: 15px;
-    font-size: 32px;
+}
+#icon{
+    color: rgb(100, 102, 100);
+    font-size: 25px;
+    margin-right: 10px;
 }
 .copyright{
-    color: #101010;
+    color: #4e4e4e;
 }
 
 /* ---------------
@@ -181,6 +185,10 @@ footer{
     }
     .title{
         font-size: 45px;
+    }
+    .banner-img > img{
+        width: 450px;
+        height: 400px;
     }
     .players{
         margin-left: 30px;
