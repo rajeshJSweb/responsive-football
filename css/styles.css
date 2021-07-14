@@ -31,10 +31,6 @@ header{
     margin-right: 10px;
  
 }
-a:hover{
-    background-color: #d499af;
-    padding: 07px 20px;
-}
 .login{
     margin-top: 42px;
     margin-right: 15%;
@@ -169,6 +165,10 @@ footer{
     media quary 
 ---------------- */
 @media only screen and (max-width: 688px) {
+    header{
+        justify-content: center;
+        align-items: center;
+    }
     .menu-item{
         display: none;
     }
@@ -200,7 +200,11 @@ footer{
         align-items: center;
     }
     .bottom-title{
-        font-size: 45px;
+        font-size: 40px;
+    }
+    .bottom-info{
+        padding: 10%;
+        font-size: 14px;
     }
 
 }
