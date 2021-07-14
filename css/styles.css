@@ -7,44 +7,47 @@ p{
     font-weight: lighter;
 }
 
+
+/* ---------------------------
+Menu and Banner Start
+---------------------------  */
 header{
     background-color: #2d25a0;
     margin-bottom: 70px;
 }
-/* menu start  */
+
 .menu-item{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin-bottom: 50px;
 }
 .menu{
-    margin-left: 50px;
-    text-align: right;
+    margin-left: 20%;
     margin-top: 42px;
-    margin-left: 30px;
 }
 .menu a{
     color: honeydew;
     text-decoration: none;
-    margin-right: 15px;
-    border: 1px solid #685efc;
-    padding: 7px;
-    border-radius: 10px;
+    margin-right: 10px;
+ 
 }
 a:hover{
     background-color: #E02C6D;
+    border-radius: 10px;
+    padding: 2px;
 }
 .login{
     margin-top: 42px;
+    margin-right: 15%;
     text-align: right;
-    margin-right: 124px;
 }
 .login a{
-    
     color: honeydew;
     text-decoration: none;
 }
-
+/* ------------------
+        Banner Item 
+------------------- */
 .banner{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -73,12 +76,19 @@ a:hover{
     color: aliceblue;text-decoration: none;
     background-color: #E02C6D;
 }
-/* Main Section Star  */
+/*--------------------------- 
+    Header and Banner End 
+----------------------------- */
+
+
+/*--------------------------------- 
+        Main Section Star 
+---------------------------------- */
 .container{
-    margin-bottom: 165px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 165px;
 }
 .players{
     margin-left: 30px;
@@ -104,16 +114,21 @@ a:hover{
     padding: 0px 5px 0px 5px;
 }
 .player-info{
+    font-size: 14px;
     padding: 0px 5px 0px 5px;
+    font-weight: lighter;
 }
 
-/* Highlights Sectinn Start  */
+/*------------------------------
+     Highlights Section Start  
+---------------------------------*/
 .bottom-title{
     margin: 0%;
     font-size: 55px;
     color: #0a0826;
 }
 .bottom-info{
+    font-weight: normal;
     padding-bottom: 24px;
 }
 .bottom-img > img{
@@ -121,7 +136,9 @@ a:hover{
     height: 427px;
 }
 
-/* Footer Section Start  */
+/* ----------------------
+    Footer Section Start  
+-------------------------*/
 footer{
     margin-top: 158px;
 }
